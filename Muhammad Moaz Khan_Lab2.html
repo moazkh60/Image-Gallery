@@ -1,0 +1,106 @@
+ <!DOCTYPE html>   
+    <html lang="en">
+        <head>     
+            <meta charset="utf-8">    
+            <title>RESPONSIVE Image Gallery</title>   
+		
+		<style>		
+			.myImages div:target {
+				display: block;
+			}
+			
+			.myImages div {
+				display: none;
+			}
+			
+			img{
+				    width:100%;
+					max-width: 100%; 
+					display:block; 
+					height: auto;
+			}
+
+		</style>
+
+				
+        </head> 
+    <body>		
+         
+    <header>
+        <hgroup>
+            <h1 align="center"> Responsive Image Gallery - by - Muhammad Moaz Khan</h1>
+			<hr/>
+            <p align="center" style="background-color:#ffffff; "><font size="2" face="helvetica">Software Engineer, Web and Mobile Developer</p>
+			<hr/>
+        </hgroup>
+     
+	 
+    </header>
+	
+	
+	<div class="myImages" style="color: black; text-decoration: none; text-align:center;">
+			 <font size="6" face="helvetica">
+				 <a href="#image1"> Image1</a>
+				 <a href="#image2"> Image2</a>
+				 <a href="#image3"> Image3</a>
+				 <a href="#image4"> Image4</a>
+				 <a href="#image5"> Image5</a>
+				 <a href="#image6"> Image6</a>
+				 </font>
+				
+			
+			 
+			 <div id="image1" >
+				<h1>First Image</h1>
+				<a href="#image2"><button>Next</button></a>	 
+				<a href="#image6"><button>Previous</button></a>
+				<img src="Images/1.jpg" />
+				
+			 </div>
+			 
+			 <div id="image2">
+				<h1>Second Image</h1>
+				<a href="#image3"><button>Next</button></a>	 
+				<a href="#image1"><button>Previous</button></a>
+				<img src="Images/2.jpg"/>
+			 </div>
+			 
+			 <div id="image3">
+				<h1>Third Image</h1>
+				<a href="#image4"><button>Next</button></a>	 
+				<a href="#image2"><button>Previous</button></a>
+				<img src="Images/3.jpg"/>
+			 </div>
+			 
+			 <div id="image4">
+				<h1>Fourth Image</h1>
+				<a href="#image5"><button>Next</button></a>	 
+				<a href="#image3"><button>Previous</button></a>
+				<img src="Images/4.jpg"/>
+			 </div>
+			 
+			 <div id="image5">
+				<h1>Fifth Image</h1>
+				<a href="#image6"><button>Next</button></a>	 
+				<a href="#image4"><button>Previous</button></a>
+				<img src="Images/5.jpg"/>
+			 </div>
+			 
+			 <div id="image6">
+				<h1>Sixth Image</h1>
+				<a href="#image1"><button>Next</button></a>	 
+				<a href="#image5"><button>Previous</button></a>
+				<img src="Images/6.jpg"/>
+			 </div>
+	
+	 </div>
+	
+	<img src="Images/1.jpg" />
+	<hr>	
+    <footer style="background-color:#ffffff;">
+		<p align="center">Copyright Muhammad Moaz Khan - 2015</p>
+	</footer>
+    <hr> 
+	
+	</body>
+	</html>
