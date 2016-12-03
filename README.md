@@ -1,4 +1,4 @@
-# Project Title
+# Image Gallery
 
 Simple Image Gallery using HTML developed in Lab 2 of Web Engineering course. The code picks up images from the images folder and enlarges the one which is selected by the user.
 
